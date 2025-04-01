@@ -1,5 +1,5 @@
 import React from 'react';
-import { useBoardStore } from '../const';
+import { useBoardStore } from '../store';
 
 const BoardConfirmModal = ({ onClose, id }) => {
   const { removeBoard } = useBoardStore();

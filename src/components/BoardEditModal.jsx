@@ -1,4 +1,4 @@
-import { useBoardStore } from '../const';
+import { useBoardStore } from '../store';
 
 const BoardEditModal = ({ item, onClose }) => {
   const { updateBoard } = useBoardStore();
