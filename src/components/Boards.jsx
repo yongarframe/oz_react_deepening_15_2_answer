@@ -26,16 +26,17 @@ const Boards = ({ type }) => {
   const [editIsOpen, setEditIsOpen] = useState(false);
   const [selectedId, setSelectedId] = useState(null);
 
+  // Detail Modal
   const handleModalOpen = (item) => {
     setItem(item);
     setIsOpen(true);
   };
-
   const handleModalClose = () => {
     setItem(null);
     setIsOpen(false);
   };
 
+  // Delete Confirm Modal
   const handleConfirmModalOpen = (id) => {
     setSelectedId(id);
     handleModalClose();
@@ -46,6 +47,7 @@ const Boards = ({ type }) => {
     setSelectedId(null);
   };
 
+  // Edit Modal
   const handleEditModalOpen = () => {
     setEditIsOpen(true);
     setIsOpen(false);
