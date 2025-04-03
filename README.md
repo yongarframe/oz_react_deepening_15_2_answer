@@ -31,3 +31,8 @@
 ### 6. `BoardConfirmModal.jsx`
 
 - **`useBoardStore`**의 **`removeBoard`** 를 사용하여 전역 상태를 삭제하여 칸반보드 삭제를 가능하게 합니다.
+
+
+
+---
+해당 답안지는 칸반보드 Chapter 3. 진행시 `clone`하여 사용됩니다. 이점에서 착오가 없도록 주의바랍니다.
